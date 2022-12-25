@@ -1,0 +1,31 @@
+body{
+    background-image: url('../assets/1.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+#container {
+    color: rgb(128, 131, 131);
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+  
+#calc{   
+display: flex;
+flex-direction: column;
+box-shadow: 0 0 10px rgb(95, 96, 96);
+width: 450px;
+height: 600px;
+border-radius: 2%;
+margin: 30px;
+padding: 10px;
+background-color: rgb(36, 36, 36);
+font-size: large;
+#calc-header{
+    height: 50px;
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(85, 85, 103);
+
+}
+}
+}
+}

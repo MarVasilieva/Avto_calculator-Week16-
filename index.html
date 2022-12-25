@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Calc</title>
+</head>
+<body>
+    <div id="container">
+        <div id="calc">
+<div  id="calc-header">
+    <h2>Калькулятор стоимости авто</h2> 
+</div>
+<p>Пробег автомобиля: </p>
+<input type="number" min="0" max="150000" value="1" id="mileage">
+<div class="slidecontainer">
+    <input type="range" min="0" max="150000" value="50" class="slider" id="myRange">
+  </div>
+  <div>
+<p>Комплектация :</p>
+<input type="radio" name="complectation" value="10000" checked/><span >Premium</span>
+<input type="radio" name="complectation" value="20000"/><span >Luxury</span>
+</div>
+ <p>Цена на аукционе : <input type="text" id="count" value="1"></p>
+ <div>
+    <p>Безопасность :</p>
+    <input type="checkbox" name="safe-review" value="1000" />
+     Система кругового обзора 360<br />
+    <input type="checkbox" name="safe-pillows" value="1000" /> 
+    Боковые передние подушки безопасности<br />
+    <input type="checkbox" name="safe-brakes" value="1000" />
+     Антиблокировочная тормозная система<br />
+    </div>
+     <p>Мультимедиа : </p>
+     <select  id="multimedia" >
+        <option value="10000">8" сенсорный экран панели управления</option>
+        <option value="20000">Беспроводная зарядка для телефона</option>
+        <option value="30000">10" сенсорный емкостный дисплей</option>
+        </select>
+        <hr>
+        <div class="calc-price">
+            <div class="calc-price-title">Стоимость автомобиля :</div>
+            <div class="calc-price-value">
+                <span id="total-price">0</span> рублей
+            </div>
+        </div>
+        </div>
+    </div>
+ <script src="./script.js"></script>   
+</body>
+</html>
